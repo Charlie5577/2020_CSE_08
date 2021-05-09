@@ -21,5 +21,23 @@ Created a new Android project.
 6. Once the request has been set up, it can be handed to the active capture session either for a one-shot capture or for an endlessly repeating use
 7. After processing a request, the camera device will produce a TotalCaptureResult object, which contains information about the state of the camera device at time of capture, and the final settings used.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+COCO DATASET 
+COCO is a large-scale object detection, segmentation, and captioning dataset. COCO has several features:
+Object segmentation
+Recognition in context
+Superpixel stuff segmentation
+330K images (>200K labeled)
+1.5 million object instances
+80 object categories
+91 stuff categories
+5 captions per image
+250,000 people with keypoints
+![Uploading image.png…]()
+
+
+
+
 
 
