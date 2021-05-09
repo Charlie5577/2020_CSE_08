@@ -34,7 +34,7 @@ Superpixel stuff segmentation
 91 stuff categories
 5 captions per image
 250,000 people with keypoints
-![Uploading image.png…]()
+
 
 
 
