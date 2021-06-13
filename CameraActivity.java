@@ -64,3 +64,13 @@ public synchronized voidonStart() {
 LOGGER.d("onStart " + this);
 super.onStart();
 }
+@Override
+public synchronized voidonStop() {
+LOGGER.d("onStop " + this);
+super.onStop();
+}
+@Override
+public synchronized voidonDestroy() {
+LOGGER.d("onDestroy " + this);
+super.onDestroy();
+}
