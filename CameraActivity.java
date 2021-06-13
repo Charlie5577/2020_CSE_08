@@ -59,3 +59,8 @@ stringBuilder.append(" detected.");
 textToSpeech.speak(stringBuilder.toString(), TextToSpeech.QUEUE_FLUSH, null);
 }
 }
+@Override
+public synchronized voidonStart() {
+LOGGER.d("onStart " + this);
+super.onStart();
+}
