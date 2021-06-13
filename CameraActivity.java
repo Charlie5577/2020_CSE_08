@@ -47,10 +47,7 @@ currentRecognitions = recognitions;
 speak();
 }
 private void speak() {
-final double rightStart = previewWidth / 2 - 0.10 * previewWidth;
-final double rightFinish = previewWidth;
 final double letStart = 0;
-final double leftFinish = previewWidth / 2 + 0.10 * previewWidth;
 final double previewArea = previewWidth * previewHeight;
 StringBuilder stringBuilder = new StringBuilder();
 for (int i = 0; i < currentRecognitions.size(); i++) {
@@ -59,12 +56,6 @@ stringBuilder.append(recognition.getTitle());
 float start = recognition.getLocation().top;
 float end = recognition.getLocation().bottom;
 double objArea = recognition.getLocation().width() * recognition.getLocation().height();
-if (objArea > previewArea / 2) {
-stringBuilder.append(" in front of you ");
-}
-if (i + 1 < currentRecognitions.size()) {
-stringBuilder.append(" and ");
-}
 }
 stringBuilder.append(" detected.");
 textToSpeech.speak(stringBuilder.toString(), TextToSpeech.QUEUE_FLUSH, null);
