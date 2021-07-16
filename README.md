@@ -11,13 +11,13 @@ The mobile application uses an android camera to capture and deliver sequence in
 
 TEAM MEMBERS:
 
-POOJA R    1KS17CS055
+POOJA R -    1KS17CS055
 
-PRAVEEN A  1KS17CS058
+PRAVEEN A - 1KS17CS058
 
-SRUSHTI A  1KS17CS084
+SRUSHTI A - 1KS17CS084
 
-TEJAS C S  1KS17CS092
+TEJAS C S - 1KS17CS092
 
 
                                                                                                 
